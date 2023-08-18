@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: blue;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    text-transform: uppercase;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navbar-left{
+
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.navbar-item{margin-left: 20px;
+    cursor: pointer;
+
+
+}
+.navbar-right .navbar-item{border-radius: 30px;
+    border: 2px solid white;
+    padding: 5px 25px;
+
+
+
+}
+.main1 {
+    width: auto;
+    height: 650px;
+    background-image: url(./pepsi/IMG-20230815-WA0006.jpg);
+    background-size: cover;
+    position: relative;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.bottle {
+    width: auto;
+    height: 500px;
+    margin-top: 195px;
+    margin-left: 100px;
+
+
+}
+
+
+.bottle1 {
+    margin-top: 100px;
+    margin-right: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.main2 {
+    width: auto;
+    height: 650px;
+    background-image: url(./pepsi/360_F_499001665_e6HqHSLEblw7tTkWsLRN8JNMgJLLKKFq.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+#imp {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+
+#zsugar {
+    height: 200px;
+    margin-top: 250px;
+
+
+}
+
+#zsugar1 {
+    height: 30px;
+
+}
+
+
+
+
+.main3 {
+    display: flex;
+    width: auto;
+    height: 650px;
+    border: 1;
+    background-image: url(./pepsi/Desktop_Background.png);
+
+}
+
+
+
+.main-container {
+    display: flex;
+    margin: 5px;
+}
+
+.cont1 {
+    height: 650px;
+    width: 450px;
+    background-color: blue;
+}
+
+.cont2 {
+    height: 650px;
+    width: 900px;
+    background-color: blue;
+    background-image: url(./pepsi/IMG-20230802-WA0005.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.ribs {
+    height: 300px;
+    width: 430x;
+    background-color: blue;
+    background-repeat: no-repeat;
+    background-image: url(./pepsi/IMG-20230802-WA0008.jpg);
+    margin-top: 20px;
+    position: relative;
+}
+
+.nacho {
+    height: 300px;
+    width: 430px;
+    background-color: blue;
+    background-image: url(./pepsi/IMG-20230802-WA0007.jpg);
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    position: relative;
+}
+
+.text {
+    font-size: 20px;
+    color: white;
+    text-decoration: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+}
+
+.text-2 {
+    font-size: 20px;
+    color: white;
+    text-decoration: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: 10%;
+    left: 20%;
+}
+
+#img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.main4 {
+
+    width: auto;
+    height: 650px;
+    border: 1;
+    display: flex;
+    position: relative;
+
+
+}
+
+.mango {
+    height: 650px;
+    width: 1450px;
+    background-image: url(./pepsi/bg-2-desktop@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#mangotext {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+#mangotxt {
+    margin-top: 300px;
+    margin-left: 30px;
+}
+
+#mangopic {
+    height: 650px;
+    width: 750px;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.main5 {
+    width: auto;
+}
+
+
+
+.main6 {
+
+    width: auto;
+    height: 670px;
+    display: flex;
+    border: 1;
+    background-image: url(./pepsi/Desktop_Background.png);
+    background-repeat: no-repeat;
+
+}
+
+.main7 {
+    display: flex;
+    width: auto;
+    height: 450px;
+    border: 1;
+    background-image: url(./pepsi/Desktop_Background.png);
+}
+
+
+.main8 {
+
+    width: auto;
+    height: 300px;
+    border: 1;
+    background-color: white;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
